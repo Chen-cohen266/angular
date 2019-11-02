@@ -1,0 +1,20 @@
+.container{
+    background: black;
+    color: white;
+    font-size: 21px;
+    width: 100%;
+    position: absolute;
+ 
+  }
+  .logo{   
+    padding: inherit;
+    display:inline;
+    text-align:center;
+  }
+
+  .signin ,.signup{
+    display:inline;
+    text-align:left;
+
+  }
+ 

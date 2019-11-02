@@ -1,0 +1,83 @@
+/* 
+.panel {
+    border: 1px solid #f4511e;
+    border-radius: 0;
+    transition: box-shadow 0.5s;
+}
+
+.panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel-footer {
+    background-color: #fff !important;
+}
+
+    .panel-footer h3 {
+        font-size: 32px;
+    }
+
+    .panel-footer h4 {
+        color: #aaa;
+        font-size: 14px;
+    }
+
+    .panel-footer .btn {
+        margin: 15px 0;
+        background-color: #f4511e;
+        color: #fff;
+    } */
+    .bg-1 {
+        background: #2d2d30;
+        color: #bdbdbd;
+      }
+      .bg-1 h3 {color: #fff;}
+      .bg-1 p {font-style: italic;}
+      /* Remove border and add padding to thumbnails */
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  /* Black buttons with extra padding and without rounded borders */
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+  }
+  
+  /* On hover, the color of .btn will transition to white with black text */
+  .btn:hover, .btn:focus {
+    border: 1px solid #333;
+    background-color: #fff;
+    color: #000;
+  }
+
+  .col-sm-4:hover{
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2); 
+  }
